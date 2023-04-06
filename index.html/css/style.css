@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color:#CCA9DD;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.formação{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #CCA9DD;
+}
+
+.social-media{
+    position: absolute;
+    right: 520px;
+    top: 100px;
+}
+
+.social-media img{
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+}
+
+.texto-formação{
+    margin-top: 50px;
+}
+
+.texto-formação h1{
+    font-size: 30px;
+}
+
+.texto-formação p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-formação button{
+    border: 0;
+    background-color: #CCA9DD;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
